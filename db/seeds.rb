@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'open-uri'
 
-
+Cocktail.destroy_all
 puts "Iniatilizing Seeds"
 Ingredient.destroy_all
 puts "Destroying Seeds"
